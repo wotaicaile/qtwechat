@@ -6,4 +6,8 @@
 ·	具有验证用户登陆、聊天消息发送、动态显示聊天气泡等功能。  
 环境依赖：  
 ·客户端打包后不依赖环境，跨平台可用，如需运行源代码，需安装PYQT5、python3.9、mysql8.0  
-·服务端为python脚本，需安装python3+，mysql8.0数据库管理系统使用。  
+·服务端为python脚本，需安装python3+，mysql8.0数据库管理系统使用。    
+使用说明：  
+根据chatInfo.txt创建数据库  
+运行chatServer.py  
+运行loginrun.py  
