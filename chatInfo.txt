@@ -1,0 +1,30 @@
+CREATE DATABASE IF NOT EXISTS chat;
+USE chat;
+CREATE TABLE IF NOT EXISTS `chatInfo`(
+   `chat_id` VARCHAR(10) PRIMARY KEY,
+   `chat_password` VARCHAR(10),
+   `chat_name` VARCHAR(10) NOT NULL,
+   `chat_avatar` VARCHAR(30) NOT NULL
+)CHARSET=utf8;
+INSERT INTO `chatInfo` values ('1747105016','123456','罗小黑','resource/罗小黑.jpg');
+INSERT INTO `chatInfo` values ('2638634836','123456','罗小白','resource/罗小白.jpeg');
+INSERT INTO `chatInfo` values ('1234567890','123456','阿根哥哥','resource/阿根哥哥.jpeg');
+
+
+CREATE TABLE IF NOT EXISTS `friendsRealtionship`(
+    `chat_id` VARCHAR(10) ,
+   `friends_id` VARCHAR(10),
+   `friends_name` VARCHAR(10),
+   `friends_avatar` VARCHAR(30),
+    primary key(chat_id,friends_id)
+)CHARSET=utf8;
+
+INSERT INTO `friendsRealtionship`values ('1747105016','2638634836','罗小白','resource/罗小白.jpeg');
+INSERT INTO `friendsRealtionship`values ('1747105016','1234567890','阿根哥哥','resource/阿根哥哥.jpeg');
+
+
+INSERT INTO `friendsRealtionship`values ('2638634836','1747105016','罗小黑','resource/罗小黑.jpg');
+INSERT INTO `friendsRealtionship`values ('2638634836','1234567890','阿根哥哥','resource/阿根哥哥.jpeg');
+
+INSERT INTO `friendsRealtionship`values ('1234567890','1747105016','罗小黑','resource/罗小黑.jpg');
+INSERT INTO `friendsRealtionship`values ('1234567890','2638634836','罗小白','resource/罗小白.jpeg');

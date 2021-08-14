@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file>resource/qtbigwork.icon</file>
+    <file>resource/罗小白.jpeg</file>
+    <file>resource/loginbackground.jpeg</file>
+    <file>resource/background.png</file>
+    <file>resource/罗小黑.jpg</file>
+  </qresource>
+</RCC>
