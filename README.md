@@ -17,3 +17,24 @@
 根据chatInfo.txt创建数据库  
 运行chatServer.py  
 运行loginrun.py  
+# 运行与测试结果
+在装有Python3.9、mysql8.0（密码为123456）、搭载Windows10系统的计算机上运行chatServer.py
+服务器正在运行中
+![image](https://user-images.githubusercontent.com/50273609/135586096-ef13732f-766b-4403-91f9-128e2ec0791f.png)  
+双击客户端的exe程序进行登陆。  
+![image](https://user-images.githubusercontent.com/50273609/135586190-f3f20a1d-ed49-4357-a9ec-00df026c539d.png)  
+进入登陆界面：
+ ![image](https://user-images.githubusercontent.com/50273609/135586218-81b8ddd0-93d4-416f-a8f4-46d7f882e7d7.png)  
+
+输入非法账号密码：  
+![image](https://user-images.githubusercontent.com/50273609/135586239-51fb7723-6e91-4469-83f1-5bdf961af097.png)
+
+ 返回信息：  
+ ![image](https://user-images.githubusercontent.com/50273609/135586257-76584fd3-2fad-45ed-9588-96dd2b14f18e.png)
+
+ 输入合法账号：  
+ 
+ ![image](https://user-images.githubusercontent.com/50273609/135586280-55941d51-8aa5-4db8-9a38-e266e37ee7df.png)  
+
+
+
