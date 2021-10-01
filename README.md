@@ -18,7 +18,7 @@
 运行chatServer.py  
 运行loginrun.py  
 # 运行与测试结果
-# # （测试文件为打包后的）
+## （测试文件为打包后的exe）
 在装有Python3.9、mysql8.0（密码为123456）、搭载Windows10系统的计算机上运行chatServer.py
 服务器正在运行中
 ![image](https://user-images.githubusercontent.com/50273609/135586096-ef13732f-766b-4403-91f9-128e2ec0791f.png)  
