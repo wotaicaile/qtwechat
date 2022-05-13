@@ -1,17 +1,18 @@
 此项目为期末大作业，耗时3天完成
 # qtwechat
 用pyqt5模仿微信界面（网络编程大作业）  
-网络编程、多线程、数据库、ui
+技术涉及到网络编程、多线程、数据库、ui设计  
 介绍：  
-·该系统基于PYQT5、python3.9、mysql开发，界面参考微信，通过socket进行网络聊天通信。  
+·该系统基于PYQT5、python3.9、mysql开发，界面参考微信，通过socket实现网络聊天通信。  
 ·	具有验证用户登陆、聊天消息发送、动态显示聊天气泡等功能。  
 环境依赖：  
-·客户端打包后不依赖环境，跨平台可用，如需运行源代码，需安装PYQT5、python3.9、mysql8.0  
-·服务端为python脚本，需安装python3+，mysql8.0数据库管理系统使用。    
+·客户端打包后不依赖环境，跨平台可用。  
+本项目的ide环境为PyCharm，如需运行源代码，建议导入PyCharm，之后还需安装python3.9、mysql8.0，其中python需要用pip3命令安装PYQT5库。  
+·服务端为python脚本，需安装python3+，mysql8.0数据库管理系统进行使用，并且建议用python自带的idle运行，而不推荐双击运行脚本，因为双击之后脚本运行之后看不到后台信息    
 使用说明：  
-根据chatInfo.txt创建数据库  
-运行chatServer.py  
-运行loginrun.py  
+1.根目录中有一个chatInfo.txt文件，根据chatInfo.txt创建数据库  
+2.运行chatServer.py  
+3.运行loginrun.py  
 # 运行与测试结果
 ## （运行打包后的exe）
 在装有Python3.9、mysql8.0（密码为123456）、搭载Windows10系统的计算机上运行chatServer.py
